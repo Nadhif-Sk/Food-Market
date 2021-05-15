@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.auth.signin.SigninFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="26dp"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Phone Number"
+                    android:textSize="16sp"
+                    android:textColor="#020202"
+                    android:fontFamily="@font/poppins"/>
+
+                <EditText
+                    android:id="@+id/etPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Type your phone number"
+                    android:layout_marginTop="6dp"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#8D92A3"
+                    android:fontFamily="@font/poppins"
+                    android:background="@drawable/shape_rectangle_outline_8_020202"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Address"
+                    android:textSize="16sp"
+                    android:textColor="#020202"
+                    android:fontFamily="@font/poppins"/>
+
+                <EditText
+                    android:id="@+id/etAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Type your address"
+                    android:layout_marginTop="6dp"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#8D92A3"
+                    android:fontFamily="@font/poppins"
+                    android:background="@drawable/shape_rectangle_outline_8_020202"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="House Number"
+                    android:textSize="16sp"
+                    android:textColor="#020202"
+                    android:fontFamily="@font/poppins"/>
+
+                <EditText
+                    android:id="@+id/etHouseNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Type your house number"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#8D92A3"
+                    android:fontFamily="@font/poppins"
+                    android:background="@drawable/shape_rectangle_outline_8_020202"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="City"
+                    android:textSize="16sp"
+                    android:textColor="#020202"
+                    android:fontFamily="@font/poppins"/>
+
+                <EditText
+                    android:id="@+id/etCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Type your cityr"
+                    android:padding="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#8D92A3"
+                    android:fontFamily="@font/poppins"
+                    android:background="@drawable/shape_rectangle_outline_8_020202"/>
+
+                <Button
+                    android:id="@+id/btnSignUpNow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="Sign Up"
+                    android:textColor="#020202"
+                    android:textSize="14sp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/shape_rectangle_8_ffc700"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

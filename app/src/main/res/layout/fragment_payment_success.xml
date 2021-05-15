@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="100dp"
+    android:orientation="vertical"
+    tools:context=".ui.detail.PaymentSuccessFragment">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="200dp"
+        android:layout_height="201dp"
+        android:src="@drawable/ic_success_order" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextView.PoppinsNormal20sp020202"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="You’ve Made Order" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Just stay at home while we are\npreparing your best foods"
+        android:fontFamily="@font/poppins"
+        android:textSize="14sp"
+        android:textColor="#8D92A3"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnOtherFood"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Order other Food"
+        android:textColor="#020202"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:background="@drawable/shape_rectangle_8_ffc700"/>
+
+    <Button
+        android:id="@+id/btnMyOrder"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="View My Order"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        android:background="@drawable/shape_rectangle_8_8d92a3"/>
+
+</LinearLayout>

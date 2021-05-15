@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="24dp"
+    android:background="@drawable/shape_rectangle_8_fff">
+    
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:src="@drawable/iv_sample_product"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:text="Cherry Healthy"
+        android:fontFamily="@font/poppins"
+        android:textSize="16sp"
+        android:textColor="#020202"/>
+
+    <RatingBar
+        android:id="@+id/rbFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        android:theme="@style/RatingBar"
+        style="@style/Widget.AppCompat.RatingBar.Small"/>
+
+</LinearLayout>

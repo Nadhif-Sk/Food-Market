@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.auth.signin.SigninFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="26dp"
+            android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivProfile"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_picture_empty"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Full Name"
+            android:textSize="16sp"
+            android:textColor="#020202"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/etFullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your full name"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:textColor="#8D92A3"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/shape_rectangle_outline_8_020202"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Email Address"
+            android:textSize="16sp"
+            android:textColor="#020202"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your email address"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:textColor="#8D92A3"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/shape_rectangle_outline_8_020202"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Password"
+            android:textSize="16sp"
+            android:textColor="#020202"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Type your password"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:textColor="#8D92A3"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/shape_rectangle_outline_8_020202"/>
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Continue"
+            android:textColor="#020202"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:background="@drawable/shape_rectangle_8_ffc700"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
